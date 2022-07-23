@@ -17,6 +17,6 @@ kind: StorageClass
 metadata:
   name: http-ssd
   namespace: project1
-provisioner: kubernetes.io/gce-pd
+provisioner: cluster.local/httpd-ssd-nfs-subdir-external-provisioner
 parameters:
   type: pd-standard
