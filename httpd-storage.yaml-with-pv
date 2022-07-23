@@ -12,7 +12,7 @@ spec:
   persistentVolumeReclaimPolicy: Recycle
   gcePersistentDisk:
     pdName: httpd-web
-    fsType: ext4
+    fsType: nfs
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
