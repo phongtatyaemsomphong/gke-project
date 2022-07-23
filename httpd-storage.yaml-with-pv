@@ -10,9 +10,6 @@ spec:
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
-  gcePersistentDisk:
-    pdName: httpd-web
-    fsType: nfs
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
