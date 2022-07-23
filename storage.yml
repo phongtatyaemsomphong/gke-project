@@ -4,7 +4,7 @@ metadata:
   name: httpd-pvc
   namespace: project1
 spec:
-  storageClassName: standard
+  storageClassName: httpd-ssd
   accessModes:
     - ReadWriteOnce
   resources:
